@@ -10,12 +10,13 @@ package LinkedList;
  */
 public class Operations {
     public static void main(String[] args) {
-        LinkedList head = new LinkedList();
-        LinkedList n1 = new LinkedList(10, null);
-        LinkedList n2 = new LinkedList(20, null);
-        LinkedList n3 = new LinkedList(30, null);
-        LinkedList n4 = new LinkedList(40, null);
-        LinkedList n5 = new LinkedList(10, null);
+        CircularLinkedList head = new CircularLinkedList();
+        head.next = head;
+        CircularLinkedList n1 = new CircularLinkedList(10, null);
+        CircularLinkedList n2 = new CircularLinkedList(20, null);
+        CircularLinkedList n3 = new CircularLinkedList(30, null);
+        CircularLinkedList n4 = new CircularLinkedList(40, null);
+        CircularLinkedList n5 = new CircularLinkedList(10, null);
         head.insertEnd(head, n1);
         head.insertEnd(head, n2);
         head.insertAfter(head,10,n3);
