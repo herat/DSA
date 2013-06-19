@@ -13,9 +13,7 @@ public class Operation {
        Hashtable_QuadraticProbing ho = new Hashtable_QuadraticProbing(3);
        ho.put("abc", "sdfsf");
        ho.put("abc", "adsdadasd");
-       ho.put("abc", "wwww");
-       System.out.println(ho.get("abc"));
-       System.out.println(ho.get("abc"));
+       ho.put("abcd", "wwww");
        ho.debugPrintWholeArray();
        ho.delete("abc");
        ho.debugPrintWholeArray();

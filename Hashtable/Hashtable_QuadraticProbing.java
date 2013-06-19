@@ -55,7 +55,7 @@ public class Hashtable_QuadraticProbing {
         index+=jump*jump;
         jump++;
         index %= array.length;
-        while(index != sindex) {
+        while(pindex != sindex) {
             if(index != getHashValue(array[index][0])) {
                 array[pindex][0] = array[index][0];
                 array[pindex][1] = array[index][1];
