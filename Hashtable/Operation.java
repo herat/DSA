@@ -10,9 +10,10 @@ package Hashtable;
  */
 public class Operation {
    public static void main(String[] args) {
-       Hashtable_LinearProbling ho = new Hashtable_LinearProbling(3);
+       Hashtable_QuadraticProbing ho = new Hashtable_QuadraticProbing(3);
        ho.put("abc", "sdfsf");
        ho.put("abc", "adsdadasd");
+       ho.put("abc", "wwww");
        System.out.println(ho.get("abc"));
        System.out.println(ho.get("abc"));
        ho.debugPrintWholeArray();
