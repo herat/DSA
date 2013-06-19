@@ -10,7 +10,7 @@ package Hashtable;
  */
 public class Operation {
    public static void main(String[] args) {
-       Hashtable_QuadraticProbing ho = new Hashtable_QuadraticProbing(3);
+       Hashtable_DoubleHashing ho = new Hashtable_DoubleHashing(3);
        ho.put("abc", "sdfsf");
        ho.put("abc", "adsdadasd");
        ho.put("abcd", "wwww");
