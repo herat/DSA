@@ -10,12 +10,13 @@ package Hashtable;
  */
 public class Operation {
    public static void main(String[] args) {
-       Hashtable_DoubleHashing ho = new Hashtable_DoubleHashing(3);
+       Hashtable_Chaining ho = new Hashtable_Chaining();
        ho.put("abc", "sdfsf");
        ho.put("abc", "adsdadasd");
        ho.put("abcd", "wwww");
-       ho.debugPrintWholeArray();
-       ho.delete("abc");
-       ho.debugPrintWholeArray();
+       //ho.delete("abc");
+       System.out.println(ho.delete("abc"));
+       System.out.println(ho.get("abc"));
+       System.out.println(ho.get("abcd"));
    } 
 }
