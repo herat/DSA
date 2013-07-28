@@ -12,7 +12,7 @@ import java.util.*;
 public class SuffixTree {
     String value;
     ArrayList<SuffixTree> next;
-    
+
     SuffixTree(String value) {
         this.value = value;
         next = new ArrayList<SuffixTree>();
